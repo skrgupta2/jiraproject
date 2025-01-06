@@ -1,0 +1,25 @@
+<div class="login-container d-flex">
+
+    <form [formGroup]="loginforms" (ngSubmit)="Onsubmit()" class="login-form">
+        <h3 class="items">Welcome</h3>
+        <div class="item">
+            <mat-label>Email</mat-label><br>
+            <mat-form-field>
+                <input type="text" matInput placeholder="Email" autocomplete="off" formControlName="username">
+            </mat-form-field><br>
+            <mat-label>Password</mat-label><br>
+            <mat-form-field>
+                <input type="password" matInput placeholder="Password" autocomplete="off" formControlName="password">
+            </mat-form-field>
+
+        </div>
+        <div class="button">
+            <button type="submit" mat-button>Login</button>
+        </div>
+
+    </form>
+
+
+
+
+</div>

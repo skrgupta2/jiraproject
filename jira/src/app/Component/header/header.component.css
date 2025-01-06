@@ -1,0 +1,16 @@
+.form-inline {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem; /* Adjust spacing between elements */
+  }
+.nav-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+}
+.form-inline {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-left: 300px;
+}
